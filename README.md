@@ -1,108 +1,46 @@
-# Linux LARP
+# Linux LARP Now Has a Working hackermode on Shell!
 
 <p align="center">
-  <img src="LINUX-LARP-LOGO.png" alt="Linux LARP Logo" width="820">
+  <img src="larper-desktop.png" alt="hackermode.sh" width="820">
 </p>
 
-<p align="center">
-  <img src="larper-desktop.png" alt="Linux LARP Desktop Screenshot" width="900">
-</p>
 
-<p align="center">
-  <a href="https://youtu.be/FRgE8DjzMAs">
-    <img src="https://img.youtube.com/vi/FRgE8DjzMAs/maxresdefault.jpg" alt="Linux LARP showcase video" width="720">
-  </a>
-</p>
 
 ## [CLICK HERE TO WATCH THE VIDEO SHOWCASE OF LINUX LARP](https://youtu.be/FRgE8DjzMAs)
 
 ---
 
-<p align="center">
-  <b>Linux LARP</b> is a Debian-based live joke distro for larping. Below are the features.
+<p>
+  <b>hackermode.sh</b> is made based on a parody Debian-based distro Larp Linux. Now you can use it on your shell without downloading .iso file!
 </p>
 
 ---
 
-## Features of Linux Larp
-
-Linux LARP features a useless terminal which cannot execute commands, instead it just outputs a fake "hackertyper" like output. Additionally the default Browser is Google Chrome for "Privacy" lol
-
-This is currently a **live ISO**, not a traditional installable distro. Booting it runs the system from the ISO, USB, or VM. Changes do not persist after reboot.
-
----
 
 ## Download
 
-Download the latest ISO from the **Releases** page:
+```bash
+HTTPS://github.com/semihkalkandelen/hackermode.sh.git
 
-```text
-linux-larp-1.0-amd64.iso
-linux-larp-1.0-amd64.iso.sha256
 ```
 
-Then simply put the .iso in a vm and set OS as debian 13 if your vm software asks for that.
+## Make It Executable
 
-To verify the ISO:
-
-```text
-sha256sum -c linux-larp-1.0-amd64.iso.sha256
+```bash
+chmod +x hackermode.sh
 ```
 
----
-
-## Building from source
-
-Build on a Debian-based system.
-
-### 1. Install build dependencies
+## Run
 
 ~~~bash
-sudo apt update
-sudo apt install live-build dpkg-dev xorriso isolinux syslinux-common qemu-system-x86
+./hackermode.sh
 ~~~
 
-### 2. Clone the repository
-
-~~~bash
-git clone https://github.com/dzumq/linux-larp.git
-cd linux-larp
-~~~
-
-### 3. Build the custom packages
-
-~~~bash
-mkdir -p repo
-
-dpkg-deb --root-owner-group --build packages/hackermode repo/hackermode_1.0_all.deb
-dpkg-deb --root-owner-group --build packages/wallpapers repo/wallpapers_1.0_all.deb
-dpkg-deb --root-owner-group --build packages/fetch repo/fetch_1.0_all.deb
-dpkg-deb --root-owner-group --build packages/defaults repo/defaults_1.0_all.deb
-~~~
-
-### 4. Copy packages into the live-build config
-
-~~~bash
-mkdir -p iso/config/includes.chroot/opt/larp-packages
-rm -f iso/config/includes.chroot/opt/larp-packages/*.deb
-cp repo/*.deb iso/config/includes.chroot/opt/larp-packages/
-~~~
-
-### 5. Build the ISO
-
-~~~bash
-cd iso
-sudo lb clean --purge
-lb config
-sudo lb build
-~~~
-
-The finished ISO should appear as:
-
-~~~text
-iso/live-image-amd64.hybrid.iso
-~~~
-
----
+## NOTES
+<p>
+  Just in case, I decide to remove dash and star on french langue although it just print the text on screen.
+  
+  Using a black backround terminal is recommended.
+  </p>
 
 ## HAPPY LARPING
