@@ -1,8 +1,0 @@
-Package: defaults
-Version: 1.0
-Section: misc
-Priority: optional
-Architecture: all
-Depends: google-chrome-stable
-Maintainer: Linux LARP Team <root@larp.local>
-Description: Default settings for Linux LARP... Sets Chrome as the default browser for privacy

@@ -1,8 +1,0 @@
-Package: hackermode
-Version: 1.0.0
-Section: utils
-Priority: optional
-Architecture: all
-Depends: xterm, python3, bash
-Maintainer: Linux LARP Team <root@larp.local>
-Description: Hacker terminal to HACK stuff like a HACKER. this tool will get u in the mainframe IMMEDIETLY because it is for HACKING and HACKERS!

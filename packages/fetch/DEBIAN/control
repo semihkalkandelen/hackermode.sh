@@ -1,8 +1,0 @@
-Package: fetch
-Version: 1.0
-Section: misc
-Priority: optional
-Architecture: all
-Depends: fastfetch
-Maintainer: Linux LARP Team <root@larp.local>
-Description: fetch logo for Linux LARP n shii

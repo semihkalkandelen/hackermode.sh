@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=hackermode
-Comment=Auto-start HACKER terminal to HACK stuff
-Exec=/usr/local/bin/hackermode-terminal
-OnlyShowIn=XFCE;
-X-GNOME-Autostart-enabled=true

@@ -1,6 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Set Linux LARP Wallpaper
-Exec=/usr/local/bin/set-larp-wallpaper
-OnlyShowIn=XFCE;
-X-GNOME-Autostart-enabled=true

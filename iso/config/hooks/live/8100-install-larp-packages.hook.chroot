@@ -1,8 +1,0 @@
-#!/bin/sh
-set -e
-
-apt-get update
-
-dpkg -i /opt/larp-packages/*.deb || apt-get install -f -y
-
-rm -rf /opt/larp-packages

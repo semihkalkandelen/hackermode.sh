@@ -1,8 +1,0 @@
-Package: wallpapers
-Version: 1.0
-Section: x11
-Priority: optional
-Architecture: all
-Depends: xfconf
-Maintainer: Linux LARP Team <root@larp.local>
-Description: Wallpaper default for Linux LARP

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=hackermode
-Comment=Hacking terminal made FOR HACKERS by HACKERS
-Exec=/usr/local/bin/hackermode-terminal
-Icon=utilities-terminal
-Terminal=false
-Type=Application
-Categories=System;TerminalEmulator;
-StartupNotify=true

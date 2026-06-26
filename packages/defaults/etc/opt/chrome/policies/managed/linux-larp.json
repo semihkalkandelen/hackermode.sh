@@ -1,9 +1,0 @@
-{
-  "HomepageLocation": "file:///usr/share/linux-larp/homepage.html",
-  "HomepageIsNewTabPage": false,
-  "RestoreOnStartup": 4,
-  "RestoreOnStartupURLs": [
-    "file:///usr/share/linux-larp/homepage.html"
-  ],
-  "DefaultBrowserSettingEnabled": true
-}

@@ -1,7 +1,0 @@
-#!/bin/sh
-
-exec /usr/bin/fastfetch \
-  --logo /usr/share/linux-larp/ll-logo.txt \
-  --logo-type file \
-  --logo-color-1 blue \
-  "$@"
