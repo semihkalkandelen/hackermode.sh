@@ -41,6 +41,8 @@ chmod +x hackermode.sh
   Just in case, I decide to remove dash and star on french langue although it just print the text on screen.
   
   Using a black backround terminal is recommended.
+  
+  I decided to blur some cuss words and my user informations on the image.
   </p>
 
 ## HAPPY LARPING
