@@ -1,7 +1,7 @@
 # Linux LARP Now Has a Working hackermode on Shell!
 
 <p align="center">
-  <img src="larper-desktop.png" alt="hackermode.sh" width="820">
+  <img src="hackermode.png" width="820">
 </p>
 
 
