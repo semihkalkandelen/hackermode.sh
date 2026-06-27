@@ -20,7 +20,7 @@
 ## Download
 
 ```bash
-HTTPS://github.com/semihkalkandelen/hackermode.sh.git
+git clone https://github.com/semihkalkandelen/hackermode.sh.git
 
 ```
 
